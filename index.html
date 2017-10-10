@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 , user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+    <title>擎风网络项目实战</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap-qfwl.css"/>
+    <link rel="stylesheet" href="css/animate.css"/>
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/iconfont.css">
+
+    <script src="js/hide.js" charset="utf-8"></script>
+    <script src="js/jquery.js" charset="utf-8"></script>
+    <script src="js/jquery.easing.js" charset="utf-8"></script>
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="70">
+<!--导航  -->
+<nav id="div2" class="navbar navbar-default navbar-fixed-top" role="navigation"><!-- 导航固定在顶部-->
+    <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <!-- navbar-toggle小屏幕按钮--><!-- data-toggle给小屏幕按钮绑定事件  .navbar-collapse绑定到下面导航的类上-->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a href="index.html" class="navbar-brand">
+            <div id="logo"></div>
+            <div id="logo1"></div>
+        </a><!--logo-->
+    </div>
+    <div class="container">
+        <!--小屏幕导航按钮和logo容器层和导航容器分离-->
+
+        <!--小屏幕导航按钮和logo-->
+        <!--导航-->
+        <div style="width:420px; margin:0 auto;">
+        <div class="navbar-collapse collapse js-navbar-scrollspy" ><!--nav居中显示-->
+            <ul id="fontColor" class="nav navbar-nav navbar-right">
+                <li><a href="#service">服务</a></li>
+                <li><a href="#product">产品</a></li>
+                <li><a href="#case">案例</a></li>
+                <li><a href="#Laboratory">实验室</a></li>
+                <li><a href="#about">关于</a>
+                <li><a href="#footer">联系</a></li>
+            </ul>
+        </div>
+        </div>
+        <!--导航-->
+
+    </div>
+</nav>
+<!--导航-->
+
+<!--home-->
+<!--隐藏menu -->
+<section id="home">
+
+        <div class="container">
+            <div class="row wow fadeInLeft">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <h1>互联网研发和营销专家</h1>
+                    <div class="row menu2">
+                        <a href="">APP开发</a>
+                        <a href="">微信开发</a>
+                        <a href="">电商系统 </a>
+                        <a style="border-right:none;" href="">OA办公</a>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+            <div id="menu3" class="row wow fadeInRight menu3" >
+
+                  <div>
+                    <div class="a">
+                        <img class="phone aTop"  src="images/phone%20.svg"  id="phoneIcon"/>
+                        <div class="phoneIcon"  id="phone"><span>13377898809</span></div>
+                    </div>
+                    <div class="a">
+                        <img class="qq aTop"  src="images/qq%20.svg" style="height:25px;"/>
+                    </div>
+                    <div class="a">
+                        <img class="wechat aTop"  src="images/wechat.svg" id="wechatIcon"/>
+                        <div class="wechatIcon"  id="wechat"><img src="images/weixin.png" /></div>
+                    </div>
+                  </div>
+
+        </div>
+</div>
+    <div  class="nav"><a href="#service"><i class="fa fa-angle-double-down down" aria-hidden="true"></i></a></div>
+</section>
+<!-- service start!-->
+<span id="tools"></span>
+<div class="clear"></div>
+<section id="service">
+    <div class="container col-md-12">
+        <h2>一站式开发运营服务</h2>
+    </div>
+
+    <div>
+        <div class="col-md-3"></div>
+        <div  class="col-md-6">
+            <div class="row contentBox">
+                <div class="col-md-4 wow fadeInLeft" data-wow-offset="10">
+
+                    <div class="serviceBox">
+                        <div class="row imgBox">
+                            <img src="images/program.svg" class="col-md-12"/>
+                        </div>
+                        <p class="row titleBox">
+                            解决方案
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-md-4 wow fadeInLeft">
+
+                    <div class="serviceBox">
+                        <div class="row imgBox">
+                            <img src="images/private_clouds.svg"   class="col-md-12" />
+                        </div>
+                        <p class="row titleBox">
+                            私有云
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-md-4 wow fadeInLeft">
+
+                    <div class="serviceBox">
+                        <div class="row imgBox">
+                            <img src="images/custom.svg"   class="col-md-12" />
+                        </div>
+                        <p class="row titleBox">
+                            定制开发
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="row contentBox">
+                <div class="col-md-4 wow fadeInRight">
+
+                    <div class="serviceBox">
+                        <div class="row imgBox">
+                            <img src="images/wulian.svg"    class="col-md-12"/>
+                        </div>
+                        <p class="row titleBox">
+                            物联网
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-md-4 wow fadeInRight">
+
+                    <div class="serviceBox">
+                        <div class="row imgBox">
+                            <img src="images/devops（.svg"   class="col-md-12"/>
+                        </div>
+                        <p class="row titleBox">
+                            系统运维
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-md-4 wow fadeInRight">
+
+                    <div class="serviceBox">
+                        <div class="row imgBox">
+                            <img src="images/marketing.svg"  class="col-md-12" />
+                        </div>
+                        <p class="row titleBox">
+                            营销推广
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+</section>
+<!--bbs-->
+<!--html5-->
+
+<section>
+    <div class="">
+
+
+        <div class="col-md-12 demand">
+            <h3>我们有需求</h3>
+            <p>为您量身打造您的专属产品</p>
+            <a href="need.html"><input type="button" value="发布需求"/></a>
+        </div>
+</div>
+</section>
+<section class="clear"></section>
+<!--html5-->
+
+<!-- 产品部分 start!-->
+<section id="product">
+    <div class="container-fluid">
+
+            <div class="col-md-12">
+                <h2>强大好用的产品</h2>
+            </div>
+            <div class="row productRow">
+                <div class="col-md-2"></div>
+                 <div class="col-md-8">
+                    <div class="col-md-5 wow fadeInLeft productBox">
+
+                            <div class="row productContent">
+                                <div class="col-md-4"></div>
+                                <img class="col-md-4" src="images/oa.png"/>
+                                <div class="col-md-4"></div>
+                            </div>
+                            <div class="row productContent">
+                                <p><strong>灵犀OA</strong></p>
+                                <p class="cont2Size">专为企业管理打造的高效协作与数据管<br>
+                                    控云平台让你的企业一秒进入移动办<br>
+                                    公云时代<br>
+                                    <br>
+                                </p>
+                            </div>
+
+                    </div>
+                    <div class="col-md-5 wow fadeInRight productBox">
+
+                            <div class="row">
+                                <div class="col-md-4"></div>
+                                <img class="col-md-4" src="images/pwfx.png"/>
+                                <div class="col-md-4"></div>
+                             </div>
+                            <div class="row">
+                                <p><strong>票务分销平台</strong></p>
+                                <p class="cont2Size">采用SaaS模式建构的云端交易系统<br>
+                                    超过10000+线上线下分销商加入<br>
+                                    数千种旅游产品及服务<br>
+                                    为景区旅游企业提供专业的交易对接平台
+                                </p>
+                            </div>
+                    </div>
+                 </div>
+                <div class="col-md-2"></div>
+            </div>
+            <div class="row productRow">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <div class="col-md-5 wow fadeInLeft productBox">
+                            <div class="row">
+                                <div class="col-md-4"></div>
+                                <img class="col-md-4" src="images/fmjz.png"/>
+                                <div class="col-md-4"></div>
+                            </div>
+                            <div class="row">
+                                <p><strong>分秒建站</strong></p>
+                                <p class="cont2Size">实现中心企业低成本一键建站<br>
+                                    并支持个性化模板定制<br>
+                                    支持APP、微信、PC平台
+                                </p>
+                            </div>
+                    </div>
+                    <div class="col-md-5 wow fadeInRight productBox">
+
+
+                            <div class="row">
+                                <div class="col-md-4"></div>
+                                <img class="col-md-4" src="images/dmsc.png"/>
+                                <div class="col-md-4"></div>
+                            </div>
+                            <div class="row">
+                                <p><strong>大卖商城</strong></p>
+                                <p class="cont2Size">为中小型企业快速打造自己的电子商务平<br>
+                                    台支持PC端、APP、门店、第三方平台、<br>
+                                    微信等提供源代码可自行开发
+                                </p>
+                            </div>
+
+
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+
+    </div>
+</section>
+<!-- 案例部分-->
+<div class="con-three-box sec-active" id="case">
+<div class="title ">最新案例</div>
+<div class="nav-three">
+    <span class="active">全部</span>
+    <span>金融</span>
+    <span>旅游</span>
+    <span>电商</span>
+    <span>O2O</span>
+    <span>社交</span>
+    <span>工具</span>
+    <span>教育</span>
+    <span>门户</span>
+    <span>物联网</span>
+    <span>VR/AR</span>
+</div>
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+</ol>
+
+
+<div class="container padding-no">
+<div class="carousel-inner" role="listbox">
+<div class="item">
+    <div class="col-sm-4 col-xs-6 padding-10">
+        <div class="case">
+            <div class="img">
+                <!--<span class="img-n img-dadilinghuaqian"></span>-->
+                <img src="images/img_case_dadilinghuaqian.jpg">
+            </div>
+            <div class="txt-area">
+                <span class="txt">大地保险零花钱</span>
+                                <span class="icon-space">
+                                    <i class="iconfont icon-pc"></i>
+                                    <i class="iconfont icon-ios"></i>
+                                    <i class="iconfont icon-android_icon"></i>
+                                    <i class="iconfont icon-wechat"></i>
+                                </span>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4 col-xs-6 padding-10">
+        <div class="case">
+            <div class="img">
+                <!--<span class="img-n img-youtiaoli"></span>-->
+                <img src="images/img_case_youtiaoli.jpg">
+            </div>
+            <div class="txt-area">
+                <span class="txt">有条理</span>
+                                <span class="icon-space">
+                                    <i class="iconfont icon-pc"></i>
+                                    <i class="iconfont icon-ios"></i>
+                                    <i class="iconfont icon-android_icon"></i>
+                                </span>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4 col-xs-6 padding-10">
+        <div class="case">
+            <div class="img">
+                <!--<span class="img-n img-fengbobo"></span>-->
+                <img src="images/img_case_fengbobo.jpg">
+            </div>
+            <div class="txt-area">
+                <span class="txt">蜂伯伯</span>
+                                    <span class="icon-space">
+                                        <i class="iconfont icon-ios"></i>
+                                        <i class="iconfont icon-android_icon"></i>
+                                    </span>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4 col-xs-6 padding-10">
+        <div class="case">
+            <div class="img">
+                <!--<span class="img-n img-haitunwan"></span>-->
+                <img src="images/img_case_haitunwan.jpg">
+            </div>
+            <div class="txt-area">
+                <span class="txt">海豚湾保洁</span>
+                                <span class="icon-space">
+                                    <i class="iconfont icon-pc"></i>
+                                    <i class="iconfont icon-h5"></i>
+                                </span>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4 col-xs-6 padding-10">
+        <div class="case">
+            <div class="img">
+                <!--<span class="img-n img-chebaiwen"></span>-->
+                <img src="images/img_case_chebaiwen.jpg">
+            </div>
+            <div class="txt-area">
+                <span class="txt">车百问</span>
+                                <span class="icon-space">
+                                    <i class="iconfont icon-pc"></i>
+                                    <i class="iconfont icon-ios"></i>
+                                    <i class="iconfont icon-android_icon"></i>
+                                    <i class="iconfont icon-wechat"></i>
+                                </span>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4 col-xs-6 padding-10">
+        <div class="case">
+            <div class="img">
+                <!--<span class="img-n img-qingmi"></span>-->
+                <img src="images/img_case_qingmi.jpg">
+            </div>
+            <div class="txt-area">
+                <span class="txt">轻秘办公</span>
+                                <span class="icon-space">
+                                    <i class="iconfont icon-pc"></i>
+                                    <i class="iconfont icon-ios"></i>
+                                    <i class="iconfont icon-android_icon"></i>
+                                </span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="item active">
+    <div class="col-sm-4 col-xs-6 padding-10">
+        <div class="case">
+            <div class="img">
+                <!--<span class="img-n img-chinalife"></span>-->
+                <img src="images/img_case_chinalife.jpg">
+            </div>
+            <div class="txt-area">
+                <span class="txt">中国人寿车险理赔助手</span>
+                                <span class="icon-space">
+                                    <i class="iconfont icon-ios"></i>
+                                    <i class="iconfont icon-android_icon"></i>
+                                    <i class="iconfont icon-wechat"></i>
+                                </span>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4 col-xs-6 padding-10">
+        <div class="case">
+            <div class="img">
+                <!--<span class="img-n img-linkspot"></span>-->
+                <img src="images/img_case_linkspot.jpg">
+            </div>
+            <div class="txt-area">
+                <span class="txt">LS智慧景区</span>
+                                <span class="icon-space">
+                                    <i class="iconfont icon-pc"></i>
+                                    <i class="iconfont icon-ios"></i>
+                                    <i class="iconfont icon-android_icon"></i>
+                                </span>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4 col-xs-6 padding-10">
+        <div class="case">
+            <div class="img">
+                <!--<span class="img-n img-shandong"></span>-->
+                <img src="images/img_case_chinalife_shandong.jpg">
+            </div>
+            <div class="txt-area">
+                <span class="txt">寿险移动展业平台</span>
+                                    <span class="icon-space">
+                                        <i class="iconfont icon-ios"></i>
+                                        <i class="iconfont icon-android_icon"></i>
+                                    </span>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4 col-xs-6 padding-10">
+        <div class="case">
+            <div class="img">
+                <!--<span class="img-n img-56pinghuo"></span>-->
+                <img src="images/img_case_56pinghuo.png">
+            </div>
+            <div class="txt-area">
+                <span class="txt">56拼货网</span>
+                                <span class="icon-space">
+                                    <i class="iconfont icon-pc"></i>
+                                    <i class="iconfont icon-ios"></i>
+                                    <i class="iconfont icon-android_icon"></i>
+                                </span>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4 col-xs-6 padding-10">
+        <div class="case">
+            <div class="img">
+                <!--<span class="img-n img-piaoguanjia"></span>-->
+                <img src="images/img_case_piaoguanjia.png">
+            </div>
+            <div class="txt-area">
+                <span class="txt">票管家</span>
+                                <span class="icon-space">
+                                    <i class="iconfont icon-pc"></i>
+                                    <i class="iconfont icon-ios"></i>
+                                    <i class="iconfont icon-android_icon"></i>
+                                </span>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4 col-xs-6 padding-10">
+        <div class="case">
+            <div class="img">
+                <!--<span class="img-n img-yibang"></span>-->
+                <img src="images/img_case_yibang.jpg">
+            </div>
+            <div class="txt-area">
+                <span class="txt">易帮</span>
+                                <span class="icon-space">
+                                    <i class="iconfont icon-pc"></i>
+                                    <i class="iconfont icon-ios"></i>
+                                    <i class="iconfont icon-android_icon"></i>
+                                    <i class="iconfont icon-wechat"></i>
+                                </span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="item">
+    <div class="col-sm-4 col-xs-6 padding-10">
+        <div class="case">
+            <div class="img">
+                <!--<span class="img-n img-realov"></span>-->
+                <img src="images/img_case_realov.png">
+            </div>
+            <div class="txt-area">
+                <span class="txt">智能成人玩具</span>
+                                <span class="icon-space">
+                                    <i class="iconfont icon-pc"></i>
+                                    <i class="iconfont icon-ios"></i>
+                                    <i class="iconfont icon-android_icon"></i>
+                                </span>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4 col-xs-6 padding-10">
+        <div class="case">
+            <div class="img">
+                <!--<span class="img-n img-qingtian"></span>-->
+                <img src="images/img_case_qingtian.jpg">
+            </div>
+            <div class="txt-area">
+                <span class="txt">青天理财</span>
+                                <span class="icon-space">
+                                    <i class="iconfont icon-pc"></i>
+                                    <i class="iconfont icon-ios"></i>
+                                    <i class="iconfont icon-android_icon"></i>
+                                </span>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4 col-xs-6 padding-10">
+        <div class="case">
+            <div class="img">
+                <!--<span class="img-n img-xiaojing"></span>-->
+                <img src="images/img_case_xiaojing.png">
+            </div>
+            <div class="txt-area">
+                <span class="txt">小鲸商城</span>
+                                <span class="icon-space">
+                                    <i class="iconfont icon-pc"></i>
+                                    <i class="iconfont icon-ios"></i>
+                                    <i class="iconfont icon-android_icon"></i>
+                                    <i class="iconfont icon-wechat"></i>
+                                    <i class="iconfont icon-h5"></i>
+                                </span>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4 col-xs-6 padding-10">
+        <div class="case">
+            <div class="img">
+                <!--<span class="img-n img-beiyixiu"></span>-->
+                <img src="images/img_case_beiyixiu.jpg">
+            </div>
+            <div class="txt-area">
+                <span class="txt">贝宜秀</span>
+                                <span class="icon-space">
+                                    <i class="iconfont icon-pc"></i>
+                                    <i class="iconfont icon-ios"></i>
+                                    <i class="iconfont icon-android_icon"></i>
+                                    <i class="iconfont icon-wechat"></i>
+                                </span>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--course-->
+
+<!--course-->
+
+<section id="Laboratory">
+    <div class="container-fluid">
+
+        <div class="col-md-12">
+            <h2>梦想实验室</h2>
+        </div>
+        <div class="row wow fadeInLeft LaboratoryRow">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="col-md-6 productBox">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8 productContent">
+                        <div class="row">
+                            <div class="col-md-3"></div>
+                            <img class="col-md-6" src="images/mxj.png"/>
+                            <div class="col-md-3"></div>
+                        </div>
+                        <div class="row">
+                            <p><strong>梦想记</strong></p>
+                            <p class="cont2Size">
+                                一步一个脚印<br>2028让梦想照进现实的神器！
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+                <div class="col-md-6 productBox">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8 productContent">
+                        <div class="row">
+                            <div class="col-md-3"></div>
+                            <img class="col-md-6" src="images/xthz.png"/>
+                            <div class="col-md-3"></div>
+                        </div>
+                        <div class="row">
+                            <p><strong>系统盒子</strong></p>
+                            <p class="cont2Size">
+                                私有云构建、管理和运维的<br>强大武器
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row wow fadeInRight LaboratoryRow">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="col-md-6 productBox">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8 productContent">
+                        <div class="row">
+                            <div class="col-md-3"></div>
+                            <img class="col-md-6" src="images/fmjz.png"/>
+                            <div class="col-md-3"></div>
+                        </div>
+                        <div class="row">
+                            <p><strong>分秒建站</strong></p>
+                            <p class="cont2Size">实现中心企业低成本一键建站<br>
+                                并支持个性化模板定制<br>
+                                支持APP、微信、PC平台
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+                <div class="col-md-6 productBox">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8 productContent">
+                        <div class="row">
+                            <div class="col-md-3"></div>
+                            <img class="col-md-6" src="images/zx.png"/>
+                            <div class="col-md-3"></div>
+                        </div>
+                        <div class="row">
+                            <p><strong>真信</strong></p>
+                            <p class="cont2Size">
+                                真实可靠的交友平台<br>2028交真朋友，用真信！
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+
+    </div>
+</section>
+
+<!--Laboratory-->
+<section  id="about">
+    <div class="">
+    <div class="col-md-12 title">
+        <h2>关于我们</h2>
+    </div>
+        <div class="row">
+            <div class="col-md-6 wow fadeInLeft aboutImg">
+
+                <img src="images/team.png" alt="" />
+
+            </div>
+
+            <div class="col-md-6 wow fadeInRight aboutTxt" style="text-align: left">
+
+                <div><h3>简介</h3></div>
+                <p>上海擎风网络科技有限公司成立于2011年，
+                    是一家专注于互联网技术领域的纯技术公司。
+                    主要为客户提供技术解决方案，软件定制开发
+                    （包括APP开发、微信开发、H5开发和传统Web应用开发）、系统运维等服务。
+                </p>
+                <p>从成立以来，服务于国内各行业客户，
+                    涉及保险、房产、 汽车、金融、餐饮、旅游、培训教育等，
+                    帮助客户把想法变成产品，并提供持续技术支持，
+                    至今已帮助多家客户从开始创业到融资乃至上市。
+                </p>
+                <div><h3>我们的优势</h3></div>
+                <ul>
+                    <li>创始团队均来自国内知名的互联网门户和数字营销公司</li>
+                    <li>致力于提供高品质的技术服务和简单好用的互联网产品</li>
+                    <li>超过7年的移动互联网开发运营经验</li>
+                    <li>超过15以上年的技术开发实施经验</li>
+                    <li>服务超过多家中国知名企业和全球著名企业</li>
+                    <li>经各大权威媒体评定最具有价值的互联网公司</li>
+                </ul>
+            </div>
+        </div>
+</div>
+</section>
+<!--about                       -->
+
+
+<!--footer-->
+<div id="footer"  class="col-md-12">
+    <div class="footerTop">
+        <div class="textLeft">
+            <p style="color:#999;">咨询热线：021-64760769</p>
+            <p>公司地址：静安区万荣路A3幢202</p>
+            <p>公司邮编：200072</p>
+            <p>公司邮箱：mail@qingfengweb.com</p>
+        </div>
+        <div class="footerTitle">用心服务，客户至上！</div>
+
+    </div>
+    <div class="copyright">
+        <p>沪ICP备10211042号-1 © 2010-2017&nbsp;<a href="http://www.jikexueyuan.com/" target="_blank">上海擎风网络科技有限公司</a></p>
+        <p>Shanghai QingFeng Network Technology Co.Ltd. All rights reserved</p>
+    </div>
+</div>
+<!--footer-->
+<!--footer-->
+<div id="leftNav" class="stick stick-show nav">
+        <span>
+            <i class="iconfont icon-phone"></i>
+            <div class="tel-slider">
+                <text>售前咨询：18621008891 13918813961</text>
+                <text>售后热线：021-64760769</text>
+            </div>
+        </span>
+    <span><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1695931770&amp;site=qq&amp;menu=yes"><i class="iconfont icon-qq"></i></a></span>
+        <span>
+            <i class="iconfont icon-wechat"></i>
+            <div class="leaveMsg-slider">
+                <img class="img" width="84" src="images/code.jpg">
+            </div>
+        </span>
+    <span ><a href="#home"><i class="iconfont icon-top"></i></a></span>
+</div>
+
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.singlePageNav.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script>
+    $(function(){
+        /*导航跳转效果插件*/
+        $('.nav').singlePageNav({
+            offset:70
+        });
+        $('.downUp').singlePageNav({
+            offset:70
+        });
+        /*小屏幕导航点击关闭菜单*/
+        $('.navbar-collapse a').click(function(){
+            $('.navbar-collapse').collapse('hide');
+        });
+        new WOW().init();
+    })
+</script>
+</body>
+</html>
